@@ -1,4 +1,4 @@
-
+package DSA;
 class LC53_maxSubArray{
     public int maxSubArray(int[] nums){
         int currSum=0;
