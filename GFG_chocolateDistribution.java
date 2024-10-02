@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class GFG_chocolateDistribution {
     
     public long findMinDiff(ArrayList<Integer> a,int n,int m){
+        //inbuilt for the sorting 
         Collections.sort(a);
         long currDiff=0;
         long minDiff=Integer.MAX_VALUE;
